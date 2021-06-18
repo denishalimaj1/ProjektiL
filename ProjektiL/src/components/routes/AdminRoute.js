@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react'
 import {Route,Link} from 'react-router-dom'
 import {useSelector} from 'react-redux'
 import LoadingToRedirect from './LoadingToRedirect'
-import axios from 'axios'
+import axios from "axios";
 
 export const currentAdmin = async (authtoken) => {
     return await axios.post(

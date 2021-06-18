@@ -17,7 +17,8 @@ import axios from "axios"
 import AdminDashboard from './pages/admin/AdminDashboard';
 import { auth } from './firebase'
 import { useDispatch } from 'react-redux';
-import { currentUser} from "./functions/auth"
+import { currentUser } from "./functions/auth"
+
 
 
 

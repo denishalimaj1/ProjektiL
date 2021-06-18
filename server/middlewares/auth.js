@@ -1,8 +1,8 @@
 const admin = require('../firebase');
 //17/06/2021 lesson 45
-const User= require ('../models/user')
+
 exports.authCheck= async (req, res, next) => {
-   //  console.log(req.headers);  //token
+    // console.log(req.headers);  //token
    try{
     const firebaseUser = await admin
     .auth()
