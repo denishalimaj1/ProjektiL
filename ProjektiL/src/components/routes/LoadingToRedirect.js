@@ -19,7 +19,7 @@ const LoadingToRedirect = ()=>{
             //cleanup
             return ()=>clearInterval()
 
-    }, [count])
+    }, [count,history])
         return (
             <div className="container p-5 text-center">
                 <p>Redirecting you in {count} seconds</p>
